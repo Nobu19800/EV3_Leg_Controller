@@ -268,7 +268,7 @@ class EV3_Leg_Controller
   /*!
    * 関節0のギア比
    * - Name: motor0_gear_ratio motor0_gear_ratio
-   * - DefaultValue: 2.333
+   * - DefaultValue: 4.0
    */
   double m_motor0_gear_ratio;
   /*!

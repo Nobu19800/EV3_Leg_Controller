@@ -34,7 +34,7 @@ static const char* ev3_leg_controller_spec[] =
     "conf.default.motor0_speed", "10.0",
     "conf.default.motor1_speed", "8.0",
     "conf.default.motor2_speed", "8.0",
-    "conf.default.motor0_gear_ratio", "2.333",
+    "conf.default.motor0_gear_ratio", "4.0",
     "conf.default.motor1_gear_ratio", "4.0",
     "conf.default.motor2_gear_ratio", "4.0",
     "conf.default.motor0_offset", "0",
@@ -117,7 +117,7 @@ RTC::ReturnCode_t EV3_Leg_Controller::onInitialize()
   bindParameter("motor0_speed", m_motor0_speed, "10.0");
   bindParameter("motor1_speed", m_motor1_speed, "8.0");
   bindParameter("motor2_speed", m_motor2_speed, "8.0");
-  bindParameter("motor0_gear_ratio", m_motor0_gear_ratio, "2.333");
+  bindParameter("motor0_gear_ratio", m_motor0_gear_ratio, "4.0");
   bindParameter("motor1_gear_ratio", m_motor1_gear_ratio, "4.0");
   bindParameter("motor2_gear_ratio", m_motor2_gear_ratio, "4.0");
   bindParameter("motor0_offset", m_motor0_offset, "0");
